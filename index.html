@@ -10,21 +10,33 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- javascript -->
-    <script src="javascript/script.js"></script>
+    <script src="javascript/script.js" defer></script>
 </head>
 <body>
-    
     <div class="container">
-        <div>Il tuo nome: 
-            <span id="name"></span>
-        </div>
-        <div>Il tuo cognome: 
-            <span id="lastname"></span>
-        </div>
-        <div>Il tuo colore preferito: 
-            <span id="color"></span>
+        <div class="form">
+            <h4>Generatore di password non sicuro</h4>
+
+            <div class="label">
+                <p>Il tuo nome</p>
+                <span id="name"></span>
+            </div>
+            <div class="label">
+                <p>Il tuo cognome</p>
+                <span id="lastname"></span>
+            </div>
+            <div class="label">
+                <p>Il tuo colore preferito</p> 
+                <span id="color"></span>
+            </div>
+
+            <div class="psw-gen">
+                <div class="last-label">
+                    <p>La tua password</p>
+                    <span id="password"></span>
+                </div>
+            </div>
         </div>
     </div>
-
 </body>
 </html>

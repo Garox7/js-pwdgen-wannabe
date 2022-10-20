@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: palevioletred;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: lightblue;
+    min-width: 200px;
+    max-width: 600px;
+    margin: 0 20px;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgba(0, 0, 0, .8);
+}
+
+.form {
+    padding: 50px;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.label {
+    margin-bottom: 1rem;
+}
+
+.label p , .last-label p {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.label span, .last-label span{
+    text-transform: capitalize;
+    background-color:bisque;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.psw-gen {
+    background-color: white;
+    text-align: center;
+    padding: 10px 10px 20px 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+
+}
